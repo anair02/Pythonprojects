@@ -14,8 +14,7 @@ insert_command = """INSERT INTO student (std_id, name, gpa, gender)
 Values
 (128, 'John', 3.46, 'M'),
 (154, 'Maria', 3.8, 'F'), 
-(165, 'Delia', 4.0, 'M')
-(135, 'Anu', 3.0, 'F')"""
+(165, 'Delia', 4.0, 'M')"""
 crsr.execute(insert_command)
 
 connection.close()
